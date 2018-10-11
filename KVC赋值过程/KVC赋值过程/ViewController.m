@@ -19,8 +19,11 @@
     [super viewDidLoad];
     
     XYCPerson* per = [XYCPerson new];
+    //赋值
     [per setValue:@"xyc" forKey:@"name"];
  
+    //取值
+    [per valueForKey:@"name"];
 }
 
 

@@ -10,7 +10,7 @@
 
 @implementation XYCPerson
 
-
+//赋值
 //-(void)setName:(NSString*)name{
 //    NSLog(@"%s",__func__);
 //}
@@ -23,6 +23,19 @@
     NSLog(@"%s",__func__);
 }
 
+
+//取值
+//-(NSString*)getName{
+//    NSLog(@"%s",__func__);
+//    return @"getName";
+//}
+
+-(NSString*)name{
+    NSLog(@"%s",__func__);
+    return @"name";
+}
+
+//是否充许访问变量
 //+(BOOL)accessInstanceVariablesDirectly{
 //    return NO;
 //}
