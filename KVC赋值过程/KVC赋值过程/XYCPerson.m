@@ -7,6 +7,7 @@
 //
 
 #import "XYCPerson.h"
+#import <objc/runtime.h>
 
 @implementation XYCPerson
 
